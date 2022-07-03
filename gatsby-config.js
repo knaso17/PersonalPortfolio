@@ -13,6 +13,8 @@ module.exports = {
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
+        description: `The application does cool things and makes your life better.`,
+        lang: `en`,
         display: `standalone`,
         icon: `src/images/icon.png`,
       },
