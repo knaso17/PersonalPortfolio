@@ -27,7 +27,7 @@ const IndexPage = () => {
              className="about__link"
              >
               <FontAwesomeIcon icon={faLinkedin} size={"4x"}/>
-              LinkedIn
+              <br/>LinkedIn
             </a>
             <span className="about__icon-spacing"></span>
             <a href="https://github.com/knaso17"
@@ -35,7 +35,7 @@ const IndexPage = () => {
                className="about__link"
                >
               <FontAwesomeIcon icon={faGithub} size={"4x"}/>
-              GitHub
+              <br/>GitHub
             </a>
         </div>
     </main>
