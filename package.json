@@ -15,8 +15,15 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "gatsby": "^4.17.2",
+    "gatsby-plugin-fontawesome-css": "^1.2.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^2.17.0",
+    "gatsby-plugin-manifest": "^4.17.0",
     "gatsby-plugin-sass": "^5.17.0",
     "gatsby-plugin-sharp": "^4.17.0",
     "gatsby-source-filesystem": "^4.17.0",
