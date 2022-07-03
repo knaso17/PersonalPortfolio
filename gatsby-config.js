@@ -8,12 +8,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
+        name: `Krista Naso Personal Portfolio`,
+        short_name: `KN Portfolio`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
-        description: `The application does cool things and makes your life better.`,
+        description: `The personal portfolio of Krista Naso a Front End Developer from the Chicago Area. View projects, recommendations, and proficient technologies!`,
         lang: `en`,
         display: `standalone`,
         icon: `src/images/icon.png`,
