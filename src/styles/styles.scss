@@ -3,8 +3,11 @@ body {
 }
 
 .about {
+  &__link-container {
+    display: flex;
+  }
   &__link{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 }

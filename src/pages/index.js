@@ -22,21 +22,22 @@ const IndexPage = () => {
             After learning the basics and really enjoying them, I decided to make a career transition to Software Engineering and completed the immersive Grace Hopper Program at Fullstack Academy. During that program I learned more about fullstack development including Node.js, PostgreSQL, React, Express and more. I'm now able to take what I've learned and apply it to real world problems and create beautiful websites.
           </p>
           <p className="about__para">To learn more, or to contact me, click one of the icons below!</p>
-          <a href="https://www.linkedin.com/in/krista-naso/"
-             target="_blank"
-             className="about__link"
-             >
-              <FontAwesomeIcon icon={faLinkedin} size={"4x"} label={"LinkedIn"}/>
-              LinkedIn
-            </a>
-            <span className="about__icon-spacing"></span>
-            <a href="https://github.com/knaso17"
-               target="_blank"
-               className="about__link"
-               >
-              <FontAwesomeIcon icon={faGithub} size={"4x"} label={"GitHub"}/>
-              GitHub
-            </a>
+          <div className="about__link-container">
+            <a href="https://www.linkedin.com/in/krista-naso/"
+              target="_blank"
+              className="about__link"
+              >
+                <FontAwesomeIcon icon={faLinkedin} size={"4x"} label={"LinkedIn"}/>
+                LinkedIn
+              </a>
+              <a href="https://github.com/knaso17"
+                target="_blank"
+                className="about__link"
+                >
+                <FontAwesomeIcon icon={faGithub} size={"4x"} label={"GitHub"}/>
+                GitHub
+              </a>
+            </div>
         </div>
     </main>
   )
