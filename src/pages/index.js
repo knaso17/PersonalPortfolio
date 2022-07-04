@@ -26,16 +26,14 @@ const IndexPage = () => {
              target="_blank"
              className="about__link"
              >
-              <FontAwesomeIcon icon={faLinkedin} size={"4x"}/>
-              <br/>LinkedIn
+              <FontAwesomeIcon icon={faLinkedin} size={"4x"} label={"LinkedIn"}/>
             </a>
             <span className="about__icon-spacing"></span>
             <a href="https://github.com/knaso17"
                target="_blank"
                className="about__link"
                >
-              <FontAwesomeIcon icon={faGithub} size={"4x"}/>
-              <br/>GitHub
+              <FontAwesomeIcon icon={faGithub} size={"4x"} label={"GitHub"}/>
             </a>
         </div>
     </main>
