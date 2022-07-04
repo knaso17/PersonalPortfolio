@@ -1,54 +1,34 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://www.krista-naso.com">
+    <img alt="logo" src="./src/images/KNLogo.png" width="80" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  My Personal Portfolio Site 2.0
 </h1>
 
-## 🚀 Quick start
+## Info
 
-1.  **Create a Gatsby site.**
+[Visit live site](https://www.krista-naso.com)
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+### Gatsby
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+The Gatsby framework is used to add React.js components to a static webpage.
 
-2.  **Start developing.**
+### Netlify
 
-    Navigate into your new site’s directory and start it up.
+Netlify is used to host this project. It utilizes Github to deploy continuously.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+### Improvements in Version 2.0
 
-3.  **Open the code and start customizing!**
+- BEM methodology
+- Sass used as CSS pre-processor
+- Mobile-first responsiveness
+- Improved accessability
 
-    Your site is now running at http://localhost:8000!
+### To-do
 
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+- [ ] Add labels to tech stack(mouseover labels/tooltips ?)
+- [x] Favicon
+- [ ] Footer
+- [ ] Text Preview only in mobile view?
