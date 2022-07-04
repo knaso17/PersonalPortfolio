@@ -5,6 +5,7 @@ body {
 .about {
   &__link-container {
     display: flex;
+    justify-content: space-evenly;
   }
   &__link{
     display: flex;
