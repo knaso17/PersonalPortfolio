@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 import "../styles/styles.scss";
 
-export default function About() {
+export default function Header () {
   return (
     <header className="header">
           <div className="header__logo" >
@@ -22,11 +22,38 @@ export default function About() {
               <p className="header_logoText">Krista Naso</p>
             </div>
           <nav className="header__nav">
-            <a href="#top" className="nav__link">Home</a>
-            <a href="#about" className="nav__link">About</a>
-            <a href="#tech" className="nav__link">Tech</a>
-            <a href="#projects" className="nav__link">Projects</a>
-            <a href="#recs" className="nav__link">Recs</a>
+            <ul className="nav__ul">
+              <li className="nav__item">
+                <a href="#top"
+                  className="nav__link">
+                  Home
+                  </a>
+              </li>
+              <li className="nav__item">
+                <a href="#about"
+                   className="nav__link">
+                  About
+                </a>
+              </li>
+              <li className="nav__item">
+                <a href="#tech"
+                   className="nav__link">
+                  Tech
+                </a>
+              </li>
+              <li className="nav__item">
+                <a href="#projects"
+                   className="nav__link">
+                  Projects
+                </a>
+              </li>
+              <li className="nav__item">
+                <a href="#recs"
+                   className="nav__link">
+                  Recs
+                </a>
+              </li>
+            </ul>
           </nav>
       </header>
   );
