@@ -1,8 +1,9 @@
 import * as React from "react";
 import "../styles/styles.scss";
 
-import About from "../components/About";
 import Header from "../components/Header";
+import About from "../components/About";
+import TechStack from "../components/TechStack";
 
 const IndexPage = () => {
   return (
@@ -12,6 +13,7 @@ const IndexPage = () => {
         <title>Krista Naso's Portfolio</title>
         <h1>Krista Naso's Portfolio</h1>
         <About/>
+        <TechStack/>
       </main>
     </React.Fragment>
   )

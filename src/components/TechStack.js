@@ -6,10 +6,12 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export default function TechStack() {
   return (
-    <div className={style.techStack} id="tech">
-      <h2> Tech Stack </h2>
-      <div className={style.technologies}>
-        <section className={style.imgContainer}>
+    <div className="techContainer" id="tech">
+      <h2 className="techContainer__header">
+        Tech Stack
+      </h2>
+      <div className="techContainer__tech">
+        <section className="tech__imgContainer">
           <StaticImage
             src="../images/tech/html5.png"
             alt="html icon"
@@ -21,7 +23,7 @@ export default function TechStack() {
             }}
           />
         </section>
-        <section className={style.imgContainer}>
+        <section className="tech__imgContainer">
           <StaticImage
             src="../images/tech/css3.png"
             alt="css icon"
@@ -33,7 +35,7 @@ export default function TechStack() {
             }}
           />
         </section>{" "}
-        <section className={style.imgContainer}>
+        <section className="tech__imgContainer">
           <StaticImage
             src="../images/tech/javascript.png"
             alt="js icon"
@@ -45,7 +47,7 @@ export default function TechStack() {
             }}
           />{" "}
         </section>
-        <section className={style.imgContainer}>
+        <section className="tech__imgContainer">
           <StaticImage
             src="../images/tech/react.png"
             alt="react icon"
@@ -57,7 +59,7 @@ export default function TechStack() {
             }}
           />
         </section>
-        <section className={style.imgContainer}>
+        <section className="tech__imgContainer">
           <StaticImage
             src="../images/tech/expressjs-icon.png"
             alt="express icon"
@@ -69,7 +71,7 @@ export default function TechStack() {
             }}
           />
         </section>
-        <section className={style.imgContainer}>
+        <section className="tech__imgContainer">
           <StaticImage
             src="../images/tech/redux.png"
             alt="redux icon"
@@ -81,7 +83,7 @@ export default function TechStack() {
             }}
           />
         </section>
-        <section className={style.imgContainer}>
+        <section className="tech__imgContainer">
           <StaticImage
             src="../images/tech/postgresql.png"
             alt="postgres icon"
@@ -93,7 +95,7 @@ export default function TechStack() {
             }}
           />
         </section>
-        <section className={style.imgContainer}>
+        <section className="tech__imgContainer">
           <StaticImage
             src="../images/tech/github.png"
             alt="github icon"
@@ -105,7 +107,7 @@ export default function TechStack() {
             }}
           />
         </section>
-        <section className={style.imgContainer}>
+        <section className="tech__imgContainer">
           <StaticImage
             src="../images/tech/nodejs.png"
             alt="node icon"
@@ -117,10 +119,10 @@ export default function TechStack() {
             }}
           />
         </section>
-        <section className={style.imgContainer}>
+        <section className="tech__imgContainer">
           <StaticImage
-            src="../images/tech/jest-icon.png"
-            alt="jest icon"
+            src="../images/tech/sass-icon.png"
+            alt="sass icon"
             placeholder="blurred"
             layout="fixed"
             style={{
