@@ -9,7 +9,7 @@
 
 ## Info
 
-[Visit live site](https://www.krista-naso.com)
+[Visit live site](https://krista-portfolio.netlify.app/)
 
 ### Gatsby
 
