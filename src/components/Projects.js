@@ -10,11 +10,10 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 export default function Projects() {
   return (
-    <div className={style.container} id="projects">
-      <h2> Projects </h2>
-      <div className={style.babyBorder}></div>
-        <section className={style.projects}>
-          <section className={style.imgContainer}>
+    <div className="project__container" id="projects">
+      <h2 className="project__header"> Projects </h2>
+        <section className="project__main">
+          <section className="project__imgContainer">
             <StaticImage
               src="../images/LL.png"
               alt="Leashed Logo"
@@ -27,7 +26,7 @@ export default function Projects() {
               }}
             />
           </section>
-          <div className={style.projectText}>
+          <div className="project__text">
               <h3>Leashed</h3>
               <p>
                 Leashed is Tinder for dogs! A location-based mobile app that lets you create a profile for your fluffy friend to meet local dogs and set up playdates. The swipe right functionality lets you like dogs in your area to find matches and create lasting friendships!
@@ -45,8 +44,8 @@ export default function Projects() {
               </div>
             </div>
         </section>
-        <section className={style.projects}>
-          <section className={style.imgContainer}>
+        <section className="project__main">
+          <section className="project__imgContainer">
             <StaticImage
               src="../images/HoneMovies.png"
               alt="Honeflower Logo"
@@ -59,7 +58,7 @@ export default function Projects() {
               }}
             />
           </section>
-          <div className={style.projectText}>
+          <div className="project__text">
             <h3>Honeflower Movies</h3>
             <p>
               Honeflower Movies is a functional eCommerce website that allows guests and logged-in customers to shop for movies, while administrators can edit, add, and remove products. It features a robust product catalog, security, and persistent user sessions.
@@ -76,7 +75,6 @@ export default function Projects() {
                 <FontAwesomeIcon icon={faGithub} size={"2x"}/>
                 {` Github`}
                 </a>
-                <span className={style.fakeMargin}></span>
                 <a href="https://movie-shopper.herokuapp.com/"
                   target="_blank">
                 <FontAwesomeIcon icon={faGlobe} size={"2x"}/>
@@ -85,8 +83,8 @@ export default function Projects() {
               </div>
           </div>
         </section>
-        <section className={style.projects}>
-          <section className={style.imgContainer}>
+        <section className="projects__main">
+          <section className="project__imgContainer">
             <StaticImage
               src="https://miro.medium.com/max/1400/0*UVG1F-0kLAEWAT3k"
               alt="DSA image"
@@ -97,7 +95,7 @@ export default function Projects() {
               }}
             />
           </section>
-          <div className={style.projectText}>
+          <div className="project__text">
               <h3>Data Structures and Algorithms</h3>
               <p>
                 This project is a repository for data structures and algorithms practice. It utilizes the Jest framework for unit testing.
