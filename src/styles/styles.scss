@@ -10,7 +10,9 @@
 /* Overall Styles */
 
 body {
-  background-color: #e0c0f0;
+  background-color: $primary-color;
+  color: $text-color;
+  font-family: $primary-ff;
 }
 
 .about {
