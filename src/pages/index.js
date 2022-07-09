@@ -17,6 +17,7 @@ const IndexPage = () => {
         <About />
         <TechStack />
         <Projects />
+        <Recommendations />
       </main>
     </React.Fragment>
   )
