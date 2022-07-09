@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import About from "../components/About";
 import TechStack from "../components/TechStack";
 import Projects from "../components/Projects";
+import Recommendations from "../components/Recommendations";
 
 const IndexPage = () => {
   return (
