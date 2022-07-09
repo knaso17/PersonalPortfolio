@@ -1,4 +1,4 @@
-@use 'variables';
+@use './partials/variables';
 
 /* Reset */
 * {
@@ -10,7 +10,7 @@
 /* Overall Styles */
 
 body {
-  background-color: $primary-color;
+  // background-color: $primary-color;
   color: $text-color;
   font-family: $primary-ff;
 }
