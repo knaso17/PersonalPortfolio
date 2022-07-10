@@ -7,6 +7,7 @@ body {
   color: base.$text-color;
   font-family: base.$primary-ff;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -16,7 +17,7 @@ body {
     top: 0;
     width: 100%;
     z-index: 2;
-    padding: 10px;
+    padding: 1em;
 }
 
 .nav {
@@ -27,6 +28,13 @@ body {
   &__link{
     @extend %link;
   }
+}
+
+.main__title {
+  text-align: left;
+  font-size: 1.2rem;
+  color: base.$accent-color;
+  padding-left:  0 1.2em;
 }
 
 .about {

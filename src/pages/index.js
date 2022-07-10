@@ -13,7 +13,7 @@ const IndexPage = () => {
       <Header />
       <main>
         <title>Krista Naso's Portfolio</title>
-        <h1>Krista Naso's Portfolio</h1>
+        <h1 className="main__title">Krista Naso's Portfolio</h1>
         <About />
         <TechStack />
         <Projects />
