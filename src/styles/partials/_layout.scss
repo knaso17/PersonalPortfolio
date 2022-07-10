@@ -16,8 +16,15 @@ body {
     top: 0;
     width: 100%;
     z-index: 2;
-    padding: 10px 0;
+    padding: 10px;
 }
+
+.nav {
+  &__ul{
+    @extend %noBullets;
+  }
+}
+
 .about {
   &__link-container {
     display: flex;
