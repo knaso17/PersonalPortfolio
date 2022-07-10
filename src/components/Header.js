@@ -19,7 +19,7 @@ export default function Header () {
                 }}
               />
               </section>
-              <p className="header_logoText">Krista Naso</p>
+              <p className="header__logoText">Krista Naso</p>
             </div>
           <nav className="header__nav">
             <ul className="nav__ul">
