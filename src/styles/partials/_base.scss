@@ -10,9 +10,24 @@ $accent-color: #fb6d6c;
 $primary-ff: Montserrat, Arial, Helvetica;
 $accent-ff: Prosto One, Arial, Helvetica;
 
+/* placeholders */
+%noBullets {
+  list-style: none;
+}
+
+%link {
+  color: $text-color;
+
+  &:hover {
+    color: $accent-color;
+  }
+}
+
 /* reset */
 * {
   padding: 0;
   margin: 0;
   font-size: inherit;
 }
+
+
