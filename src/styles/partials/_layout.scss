@@ -18,6 +18,19 @@ body {
     width: 100%;
     z-index: 2;
     padding: 1em;
+
+    &__logo {
+      display: flex;
+      text-align: left;
+    }
+
+    &__logoText {
+      align-self: center;
+      font-size: 3rem;
+      margin: 0;
+      color: base.$comp-color;
+      width: 20%;
+    }
 }
 
 .nav {
