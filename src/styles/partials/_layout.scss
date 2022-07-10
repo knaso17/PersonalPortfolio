@@ -10,8 +10,8 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: $primary-color;
-    font-family: $accent-ff;
+    background-color: base.$primary-color;
+    font-family: base.$accent-ff;
     position: sticky;
     top: 0;
     width: 100%;
