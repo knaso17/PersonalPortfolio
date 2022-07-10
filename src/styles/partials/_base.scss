@@ -23,6 +23,17 @@ $accent-ff: Prosto One, Arial, Helvetica;
   }
 }
 
+%heading2 {
+  color: $accent-color;
+  font-size: 2rem;
+  margin-bottom: .8em;
+}
+
+%heading3 {
+  color: $comp-color;
+  font-size: 1.4rem;
+}
+
 /* reset */
 * {
   padding: 0;
