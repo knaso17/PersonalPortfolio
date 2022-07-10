@@ -1,0 +1,20 @@
+/* Overall Styles */
+
+body {
+  background-color: $primary-color;
+  color: $text-color;
+  font-family: $primary-ff;
+}
+
+.about {
+  &__link-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
