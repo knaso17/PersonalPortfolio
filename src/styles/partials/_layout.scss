@@ -7,7 +7,17 @@ body {
   color: base.$text-color;
   font-family: base.$primary-ff;
 }
-
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $primary-color;
+    font-family: $accent-ff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    padding: 10px 0;
+}
 .about {
   &__link-container {
     display: flex;
