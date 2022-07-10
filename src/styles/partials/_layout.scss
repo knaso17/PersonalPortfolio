@@ -1,9 +1,9 @@
 /* Overall Styles */
 
 body {
-  background-color: $primary-color;
-  color: $text-color;
-  font-family: $primary-ff;
+  background-color: base.$primary-color;
+  color: base.$text-color;
+  font-family: base.$primary-ff;
 }
 
 .about {
