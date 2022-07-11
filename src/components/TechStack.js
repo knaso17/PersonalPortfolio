@@ -8,10 +8,10 @@ export default function TechStack() {
   return (
     <div className="techContainer" id="tech">
       <h2 className="techContainer__header">
-        Tech Stack
+        {'Tools & Technologies'}
       </h2>
-      <div className="techContainer__tech">
-        <section className="tech__imgContainer">
+      <ul className="techContainer__techList">
+        <li className="techList__techItem">
           <StaticImage
             src="../images/tech/html5.png"
             alt="html icon"
@@ -22,8 +22,9 @@ export default function TechStack() {
               width: "100px",
             }}
           />
-        </section>
-        <section className="tech__imgContainer">
+          HTML
+        </li>
+        <li className="techList__techItem">
           <StaticImage
             src="../images/tech/css3.png"
             alt="css icon"
@@ -34,8 +35,9 @@ export default function TechStack() {
               width: "100px",
             }}
           />
-        </section>{" "}
-        <section className="tech__imgContainer">
+          CSS
+        </li>
+        <li className="techList__techItem">
           <StaticImage
             src="../images/tech/javascript.png"
             alt="js icon"
@@ -45,9 +47,10 @@ export default function TechStack() {
               height: "100px",
               width: "100px",
             }}
-          />{" "}
-        </section>
-        <section className="tech__imgContainer">
+          />
+          JavaScript
+        </li>
+        <li className="techList__techItem">
           <StaticImage
             src="../images/tech/react.png"
             alt="react icon"
@@ -58,8 +61,9 @@ export default function TechStack() {
               width: "100px",
             }}
           />
-        </section>
-        <section className="tech__imgContainer">
+          React.js
+        </li>
+        <li className="techList__techItem">
           <StaticImage
             src="../images/tech/expressjs-icon.png"
             alt="express icon"
@@ -70,8 +74,9 @@ export default function TechStack() {
               width: "100px",
             }}
           />
-        </section>
-        <section className="tech__imgContainer">
+          Express.js
+        </li>
+        <li className="techList__techItem">
           <StaticImage
             src="../images/tech/redux.png"
             alt="redux icon"
@@ -82,8 +87,9 @@ export default function TechStack() {
               width: "100px",
             }}
           />
-        </section>
-        <section className="tech__imgContainer">
+          Redux
+        </li>
+        <li className="techList__techItem">
           <StaticImage
             src="../images/tech/postgresql.png"
             alt="postgres icon"
@@ -94,8 +100,9 @@ export default function TechStack() {
               width: "100px",
             }}
           />
-        </section>
-        <section className="tech__imgContainer">
+          PostgreSQL
+        </li>
+        <li className="techList__techItem">
           <StaticImage
             src="../images/tech/github.png"
             alt="github icon"
@@ -106,8 +113,9 @@ export default function TechStack() {
               width: "100px",
             }}
           />
-        </section>
-        <section className="tech__imgContainer">
+          GitHub
+        </li>
+        <li className="techList__techItem">
           <StaticImage
             src="../images/tech/nodejs.png"
             alt="node icon"
@@ -118,8 +126,9 @@ export default function TechStack() {
               width: "100px",
             }}
           />
-        </section>
-        <section className="tech__imgContainer">
+          Node.js
+        </li>
+        <li className="techList__techItem">
           <StaticImage
             src="../images/tech/sass-icon.png"
             alt="sass icon"
@@ -130,8 +139,9 @@ export default function TechStack() {
               width: "100px",
             }}
           />
-        </section>
-      </div>
+          Sass
+        </li>
+      </ul>
     </div>
   );
 }
