@@ -56,6 +56,16 @@ body {
 }
 
 .about {
+
+  &__header {
+    @extend %heading2;
+  }
+
+  &__para {
+    margin: 1em;
+    line-height: 1.5em;
+  }
+
   &__link-container {
     display: flex;
     justify-content: space-evenly;

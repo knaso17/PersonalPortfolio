@@ -9,7 +9,6 @@ export default function About() {
   return (
       <div className="about">
           <h2 className="about__header">About Me</h2>
-          <div className="about__border"></div>
           <p className="about__para">
             Hi, I'm Krista! I live in the Chicago Area and currently work as a Front End Developer.
           </p>
