@@ -102,3 +102,9 @@ body {
     margin: 1em 0;
   }
 }
+
+.project {
+  &__header {
+    @extend %heading2;
+  }
+}
