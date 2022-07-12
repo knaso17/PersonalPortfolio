@@ -85,6 +85,10 @@ body {
 
   &__techList {
     @extend %noBullets;
+    background: base.$container-color;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 
