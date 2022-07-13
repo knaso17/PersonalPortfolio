@@ -27,7 +27,9 @@ export default function Projects() {
             />
           </section>
           <div className="project__text">
-              <h3>Leashed</h3>
+              <h3 className="project__name">
+                Leashed
+              </h3>
               <p>
                 Leashed is Tinder for dogs! A location-based mobile app that lets you create a profile for your fluffy friend to meet local dogs and set up playdates. The swipe right functionality lets you like dogs in your area to find matches and create lasting friendships!
               </p>
@@ -59,7 +61,9 @@ export default function Projects() {
             />
           </section>
           <div className="project__text">
-            <h3>Honeflower Movies</h3>
+            <h3 className="project__name">
+              Honeflower Movies
+            </h3>
             <p>
               Honeflower Movies is a functional eCommerce website that allows guests and logged-in customers to shop for movies, while administrators can edit, add, and remove products. It features a robust product catalog, security, and persistent user sessions.
             </p>
@@ -96,7 +100,9 @@ export default function Projects() {
             />
           </section>
           <div className="project__text">
-              <h3>Data Structures and Algorithms</h3>
+              <h3 className="project__name">
+                Data Structures and Algorithms
+              </h3>
               <p>
                 This project is a repository for data structures and algorithms practice. It utilizes the Jest framework for unit testing.
               </p>

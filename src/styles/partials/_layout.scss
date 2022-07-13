@@ -115,6 +115,10 @@ body {
 
   &__main {
     display: flex;
-    flex-direction: column;
+  }
+
+  &__name {
+    color: $comp-color;
+    font-size: 1.4em;
   }
 }
