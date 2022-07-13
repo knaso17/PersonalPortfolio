@@ -81,6 +81,7 @@ body {
 .techContainer {
   &__header {
       @extend %heading2;
+      margin: 2em 0 .8em;
     }
 
   &__techList {
