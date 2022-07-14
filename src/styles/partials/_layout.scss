@@ -134,11 +134,14 @@ Projects
     color: base.$comp-color;
     font-size: 1.4em;
     text-align: center;
+    margin-bottom: .5em;
   }
 
   &__link {
-    @extend %link;
-    text-align: center;
+    & a {
+      @extend %link;
+      text-align: center;
+    }
   }
 
   &__text {
