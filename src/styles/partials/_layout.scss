@@ -127,6 +127,7 @@ body {
   }
 
   &__link {
+    @extend %link;
     text-align: center;
   }
 }
