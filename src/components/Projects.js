@@ -87,7 +87,7 @@ export default function Projects() {
               </div>
           </div>
         </section>
-        <section className="projects__main">
+        <section className="project__main">
           <section className="project__imgContainer">
             <StaticImage
               src="https://miro.medium.com/max/1400/0*UVG1F-0kLAEWAT3k"
