@@ -138,10 +138,8 @@ Projects
   }
 
   &__link {
-    & a {
-      @extend %link;
-      text-align: center;
-    }
+    @extend %link;
+    text-align: center;
   }
 
   &__text {

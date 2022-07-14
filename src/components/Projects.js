@@ -37,9 +37,10 @@ export default function Projects() {
                 Built by a team of four engineers who used a Firebase backend with authorization and Firestore as the noSQL database. This app was designed with an appealing user interface that utilized React Native, Paper, and Expo framework. The team organized the development process by taking advantage of a Kanban project management system.
               </p>
               <p>Team Members: Soli Choi, Krista Naso, Ashley Tran and Tiffany McNerlin.</p>
-              <div className="project__link">
+              <div>
                 <a href="https://github.com/2111-GH-Team-Cake-Capstone/2111-GH-Team-Cake-Capstone"
-                  target="_blank">
+                  target="_blank"
+                  className="project__link">
                 <FontAwesomeIcon icon={faGithub} size={"2x"}/>
                 {` Github`}
                 </a>
@@ -73,14 +74,16 @@ export default function Projects() {
             <p>
               Team Members: Jill Sherman, Krista Naso, Cara Dodge and Krystin Fields.
             </p>
-            <div className="project__link">
+            <div>
                 <a href="https://github.com/2111honeflower/2111-grace-shopper"
-                  target="_blank">
+                  target="_blank"
+                  className="project__link">
                 <FontAwesomeIcon icon={faGithub} size={"2x"}/>
                 {` Github`}
                 </a>
                 <a href="https://movie-shopper.herokuapp.com/"
-                  target="_blank">
+                  target="_blank"
+                  className="project__link">
                 <FontAwesomeIcon icon={faGlobe} size={"2x"}/>
                 {` Live Deploy`}
                 </a>
@@ -108,9 +111,10 @@ export default function Projects() {
               </p>
               <p>I'm currently utilizing Colt Steele's <a href="https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/">udemy</a> course to learn these concepts.</p>
               <p>Solo Project</p>
-              <div className="project__link">
+              <div>
                 <a href="https://github.com/knaso17/Algo-Practice"
-                  target="_blank">
+                  target="_blank"
+                  className="project__link">
                 <FontAwesomeIcon icon={faGithub} size={"2x"}/>
                 {` Github`}
                 </a>
