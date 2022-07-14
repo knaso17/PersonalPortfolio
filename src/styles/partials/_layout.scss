@@ -141,9 +141,12 @@ Projects
     text-align: center;
   }
 
-  & p {
-    margin: 1em 0;
+  &__text {
+    & p {
+      margin: 1em 0;
+    }
   }
+
 }
 
 /*==============================================
