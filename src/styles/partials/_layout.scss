@@ -130,4 +130,8 @@ body {
     @extend %link;
     text-align: center;
   }
+
+  & p {
+    margin: 1em 0;
+  }
 }
