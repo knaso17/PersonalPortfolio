@@ -137,8 +137,15 @@ Projects
     margin-top: .5em;
   }
 
-  &__link-container {
+  &__text {
+    display:flex;
+    flex-direction: column;
     align-items: center;
+  }
+
+  &__link-container {
+    display: flex;
+    gap: 1em;
   }
 
   &__link {
