@@ -137,15 +137,10 @@ Projects
     margin-top: .5em;
   }
 
-  &__text {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   &__link-container {
     display: flex;
     gap: 1em;
+    padding-bottom: 3em;
   }
 
   &__link {
@@ -153,6 +148,10 @@ Projects
   }
 
   &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     & p {
       margin: 1em 0;
     }
