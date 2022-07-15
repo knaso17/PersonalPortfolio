@@ -169,4 +169,16 @@ Recommendations
       @extend %heading2;
       margin: 2em 0 .8em;
     }
+  &__content {
+    padding-bottom: 1em;
+  }
+
+  &__name {
+    color: base.$comp-color;
+  }
+
+  &__relationship{
+    color: base.$comp-color;
+    font-style: italic;
+  }
 }
