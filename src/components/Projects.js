@@ -74,7 +74,7 @@ export default function Projects() {
             <p>
               Team Members: Jill Sherman, Krista Naso, Cara Dodge and Krystin Fields.
             </p>
-            <div>
+            <div className="project__link-container">
                 <a href="https://github.com/2111honeflower/2111-grace-shopper"
                   target="_blank"
                   className="project__link">
