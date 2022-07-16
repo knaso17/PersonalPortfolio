@@ -175,10 +175,12 @@ Recommendations
 
   &__name {
     color: base.$comp-color;
+    font-size: 1.2rem;
   }
 
   &__relationship{
     color: base.$comp-color;
     font-style: italic;
+    padding-bottom: 1em;
   }
 }
