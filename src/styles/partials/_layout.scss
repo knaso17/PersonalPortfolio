@@ -32,12 +32,6 @@ body {
       color: base.$comp-color;
     }
 
-    &__nav {
-      width: 50%;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-    }
 }
 
 .nav {
@@ -48,6 +42,7 @@ body {
   &__link{
     @extend %link;
     padding: 0 .5em;
+    text-align: end;
   }
 }
 
