@@ -1,14 +1,13 @@
 /* colors */
-$primary-color: #020e27;
-$container-color: #394b73;
-$comp-color: #87A2D4;
-$text-color: #cfddf7;
-
-$accent-color: #fb6d6c;
+$color-primary: #020e27;
+$color-container: #394b73;
+$color-comp: #87A2D4;
+$color-text: #cfddf7;
+$color-accent: #fb6d6c;
 
 /* fonts */
-$primary-ff: Montserrat, Arial, Helvetica;
-$accent-ff: Prosto One, Arial, Helvetica;
+$ff-primary: Montserrat, Arial, Helvetica;
+$ff-accent: Prosto One, Arial, Helvetica;
 
 /* placeholders */
 %noBullets {
@@ -24,7 +23,7 @@ $accent-ff: Prosto One, Arial, Helvetica;
 }
 
 %heading2 {
-  color: $accent-color;
+  color: $color-accent;
   font-size: 2rem;
   margin: -2em auto auto;
   text-align: center;
@@ -33,7 +32,7 @@ $accent-ff: Prosto One, Arial, Helvetica;
 }
 
 %heading3 {
-  color: $comp-color;
+  color: $color-comp;
   font-size: 1.4rem;
   text-align: center;
   margin-top: .5em;

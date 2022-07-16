@@ -4,16 +4,16 @@
 General
 =================================================*/
 body {
-  background-color: base.$primary-color;
-  color: base.$text-color;
-  font-family: base.$primary-ff;
+  background-color: base.$color-primary;
+  color: base.$color-text;
+  font-family: base.$ff-primary;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: base.$primary-color;
-    font-family: base.$accent-ff;
+    background-color: base.$color-primary;
+    font-family: base.$ff-accent;
     position: sticky;
     top: 0;
     width: 100%;
@@ -29,7 +29,7 @@ body {
       align-self: center;
       font-size: 1.8rem;
       margin: 0;
-      color: base.$comp-color;
+      color: base.$color-comp;
     }
 
 }
@@ -50,8 +50,8 @@ body {
 .main__title {
   text-align: left;
   font-size: 1.2rem;
-  color: base.$accent-color;
-  padding: 1em;
+  color: base.$color-accent;
+  padding: .5em .8em;
 }
 
 /*=================================================
@@ -90,7 +90,7 @@ Tools & Technology
 
   &__techList {
     @extend %noBullets;
-    background: base.$container-color;
+    background: base.$color-container;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -166,12 +166,12 @@ Recommendations
   }
 
   &__name {
-    color: base.$comp-color;
+    color: base.$color-comp;
     font-size: 1.2rem;
   }
 
   &__relationship{
-    color: base.$comp-color;
+    color: base.$color-comp;
     font-style: italic;
     margin-bottom: 1.5em;
   }
