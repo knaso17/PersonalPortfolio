@@ -7,7 +7,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function About() {
   return (
-      <div className="about">
+      <div className="about" id="about">
           <h2 className="about__header">About Me</h2>
           <p className="about__para">
             Hi, I'm Krista! I live in the Chicago Area and currently work as a Front End Developer.

@@ -51,8 +51,7 @@ body {
   text-align: left;
   font-size: 1.2rem;
   color: base.$accent-color;
-  padding: 0 1em;
-  margin-bottom: .8em;
+  padding: 1em;
 }
 
 /*=================================================
@@ -130,10 +129,7 @@ Projects
   }
 
   &__name {
-    color: base.$comp-color;
-    font-size: 1.4em;
-    text-align: center;
-    margin-top: .5em;
+    @extend %heading3;
   }
 
   &__link-container {
