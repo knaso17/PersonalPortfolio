@@ -30,6 +30,11 @@ body {
       font-size: 1.8rem;
       margin: 0;
       color: base.$color-comp;
+
+      @media (min-width: base.$bp-max-s) {
+        font-size: 2.5rem;
+        max-width: 4em;
+      }
     }
 
 }
@@ -58,13 +63,21 @@ body {
 About
 =================================================*/
 .about {
+  margin: 0 1em;
+
+  @media (min-width: base.$bp-max-s) {
+    margin: auto;
+    width: 90%;
+    max-width: base.$bp-max-m;
+  }
+
   &__header {
     @extend %heading2;
   }
 
   &__para {
-    margin: 0 1em 1em;
     line-height: 1.3em;
+    margin-bottom: 1em;
   }
 
   &__link-container {
@@ -96,19 +109,16 @@ Tools & Technology
     justify-content: space-around;
     width: 90%;
     margin: auto;
+    padding: 1em;
     border-radius: 1.2em;
+    gap: 1em;
   }
 }
 
-.techList {
-
-  &__techItem {
-    min-width: 34%;
+.techList__techItem {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1em 0;
-  }
 }
 
 /*=================================================
