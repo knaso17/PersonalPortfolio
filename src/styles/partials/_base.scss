@@ -26,9 +26,10 @@ $accent-ff: Prosto One, Arial, Helvetica;
 %heading2 {
   color: $accent-color;
   font-size: 2rem;
-  margin: -10em auto auto;
+  margin: -2em auto auto;
   text-align: center;
-  padding-top: 10em;
+  padding: 4.2em 0 .5em;
+  box-sizing: content-box;
 }
 
 %heading3 {
