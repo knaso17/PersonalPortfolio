@@ -52,6 +52,7 @@ body {
   font-size: 1.2rem;
   color: base.$accent-color;
   padding: 0 1em;
+  margin-bottom: .8em;
 }
 
 /*=================================================
@@ -179,6 +180,6 @@ Recommendations
   &__relationship{
     color: base.$comp-color;
     font-style: italic;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
   }
 }
