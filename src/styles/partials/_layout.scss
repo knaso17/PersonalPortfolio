@@ -30,6 +30,7 @@ body {
       font-size: 1.8rem;
       margin: 0;
       color: base.$color-comp;
+      max-width: 4em;
 
       @media (min-width: base.$bp-max-s) {
         font-size: 2.5rem;
@@ -125,6 +126,16 @@ Tools & Technology
 Projects
 =================================================*/
 .project {
+  &__container {
+    margin: 0 1em;
+
+    @media (min-width: 30em){
+      margin: auto;
+      max-width: 48em;
+      width: 90%;
+    }
+  }
+
   &__header {
     @extend %heading2;
   }
@@ -133,7 +144,6 @@ Projects
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 1em;
   }
 
   &__name {
@@ -166,6 +176,12 @@ Recommendations
   &__container {
     margin: 0 1em;
     line-height: 1.4em;
+
+    @media (min-width: 30em) {
+        margin: auto;
+        max-width: 48em;
+        width: 90%;
+      }
   }
 
   &__header {
