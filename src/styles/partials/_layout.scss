@@ -76,7 +76,7 @@ About
   @media (min-width: base.$bp-max-s) {
     margin: auto;
     width: 90%;
-    max-width: base.$bp-max-m;
+    max-width: base.$bp-max-m + 2;
   }
 
   &__header {
