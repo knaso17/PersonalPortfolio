@@ -155,6 +155,12 @@ Projects
 
     @media (min-width: base.$bp-max-l) {
       flex-direction: row;
+      gap: 2em;
+
+      &:nth-of-type(even){
+        color:aquamarine;
+        flex-direction: row-reverse;
+      }
     }
   }
 
