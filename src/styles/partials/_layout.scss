@@ -245,3 +245,11 @@ Recommendations
     color: greenyellow;
   }
 }
+
+@media (min-width: base.$bp-max-xxl) {
+  body {
+    color: darkolivegreen;
+  }
+}
+
+
