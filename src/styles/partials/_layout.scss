@@ -158,7 +158,6 @@ Projects
       gap: 2em;
 
       &:nth-of-type(even){
-        color:aquamarine;
         flex-direction: row-reverse;
       }
     }
@@ -171,7 +170,7 @@ Projects
   &__link-container {
     display: flex;
     gap: 1em;
-    padding-bottom: 3em;
+    margin-bottom: 2em;
   }
 
   &__link {
