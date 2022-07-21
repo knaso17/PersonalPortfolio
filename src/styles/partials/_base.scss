@@ -29,6 +29,10 @@ $ff-accent: Prosto One, Arial, Helvetica;
   text-align: center;
   padding: 4.2em 0 .5em;
   box-sizing: content-box;
+
+  @media (min-width: $bp-max-xl) {
+      font-size: 3rem;
+    }
 }
 
 %heading3 {
