@@ -9,6 +9,13 @@ $color-accent: #fb6d6c;
 $ff-primary: Montserrat, Arial, Helvetica;
 $ff-accent: Prosto One, Arial, Helvetica;
 
+/* break points*/
+$bp-max-s: 30em; //480px
+$bp-max-m: 48em; //768px
+$bp-max-l: 64em; //1024px
+$bp-max-xl: 75em; //1200px
+$bp-max-xxl: 81.35em; //1300px
+
 /* placeholders */
 %noBullets {
   list-style: none;
@@ -49,15 +56,3 @@ $ff-accent: Prosto One, Arial, Helvetica;
   font-size: inherit;
   box-sizing: border-box;
 }
-
-/* break points*/
-
-$bp-max-s: 30em; //480px
-$bp-max-m: 48em; //768px
-$bp-max-l: 64em; //1024px
-$bp-max-xl: 75em; //1200px
-$bp-max-xxl: 81.35em; //1300px
-
-
-
-
