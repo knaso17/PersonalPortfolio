@@ -40,7 +40,7 @@ body {
       }
 
       @media (min-width: base.$bp-max-xl) {
-        font-size: 3.5rem;
+        font-size: 3rem;
       }
     }
 
@@ -80,7 +80,7 @@ body {
   padding: .5em .8em;
 
   @media (min-width: base.$bp-max-xl) {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 }
 
@@ -150,6 +150,10 @@ Tools & Technology
     border-radius: 1.5em;
     gap: 1em;
     max-width: 60em;
+
+    @media (min-width: base.$bp-max-xl) {
+      gap: 1.5em;
+    }
   }
 }
 
@@ -158,6 +162,11 @@ Tools & Technology
     flex-direction: column;
     align-items: center;
     min-width: 17%;
+
+    @media (min-width: base.$bp-max-xl) {
+      font-size: 1.2rem;
+      gap: .2em;
+    }
 }
 
 /*=================================================
@@ -171,6 +180,11 @@ Projects
       margin: auto;
       max-width: 48em;
       width: 90%;
+    }
+
+    @media (min-width: base.$bp-max-xl) {
+      font-size: 1.2rem;
+      max-width: 57em;
     }
   }
 
