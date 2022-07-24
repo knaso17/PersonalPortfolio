@@ -48,7 +48,7 @@ $bp-max-xxl: 81.35em; //1300px
   text-align: center;
   margin-top: 2em;
 
-  @media (min-width: base.$bp-max-xl) {
+  @media (min-width: $bp-max-xl) {
     font-size: 2rem;
   }
 }
