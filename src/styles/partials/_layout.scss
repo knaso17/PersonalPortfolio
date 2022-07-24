@@ -205,6 +205,10 @@ Projects
         flex-direction: row-reverse;
       }
     }
+
+    @media (min-width: base.$bp-max-xl) {
+      font-size: 1.3rem;
+    }
   }
 
   &__name {
