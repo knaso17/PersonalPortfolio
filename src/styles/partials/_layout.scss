@@ -240,7 +240,7 @@ Projects
     gap: 3em;
     margin-bottom: 2em;
 
-    &:nth-child(2)::before {
+    &:nth-last-child()::before {
       content: "";
       position: absolute;
       display: inline-block;
