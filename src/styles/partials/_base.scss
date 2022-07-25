@@ -42,9 +42,11 @@ $bp-max-xxl: 81.35em; //1300px
     content: "";
     position: absolute;
     display: block;
-    height: 1em;
-    width: 90%;
-    color: yellow;
+    height: .1em;
+    width: 100%;
+    background-image: linear-gradient(to right, #020e27,
+          #de6365, #020e27);
+    top: .25em;
   }
 
   @media (min-width: $bp-max-xl) {

@@ -275,7 +275,12 @@ Recommendations
 
   &__header {
       @extend %heading2;
+
+      @media (min-width: base.$bp-max-xl) {
+        line-height: 3em;
+      }
     }
+
   &__content {
     padding-bottom: 1em;
 
