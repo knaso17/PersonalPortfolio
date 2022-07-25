@@ -40,7 +40,7 @@ $bp-max-xxl: 81.35em; //1300px
 
   &::after {
     content: "";
-    position: absolute;
+    position: relative;
     display: block;
     height: .1em;
     width: 100%;

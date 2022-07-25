@@ -239,6 +239,15 @@ Projects
     display: flex;
     gap: 3em;
     margin-bottom: 2em;
+
+    &:nth-child(2)::before {
+      content: "";
+      position: absolute;
+      display: inline-block;
+      width: 1em;
+      height: 2em;
+      background-color: base.$color-accent;
+    }
   }
 
   &__link {
@@ -277,7 +286,7 @@ Recommendations
       @extend %heading2;
 
       @media (min-width: base.$bp-max-xl) {
-        line-height: 3em;
+        line-height: 1em;
       }
     }
 
