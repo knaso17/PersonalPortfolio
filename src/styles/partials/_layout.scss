@@ -34,6 +34,15 @@ body {
       color: base.$color-comp;
       max-width: 4em;
 
+      &::after {
+        content: "";
+        position: sticky;
+        display: block;
+        background-color: yellow;
+        height: 100px;
+        width: 100px;
+      }
+
       @media (min-width: base.$bp-max-s) {
         font-size: 2.5rem;
         max-width: 4em;
@@ -217,7 +226,7 @@ Projects
 
   &__link-container {
     display: flex;
-    gap: 1em;
+    gap: 3em;
     margin-bottom: 2em;
   }
 
