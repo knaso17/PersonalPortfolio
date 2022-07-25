@@ -36,6 +36,16 @@ $bp-max-xxl: 81.35em; //1300px
   text-align: center;
   padding: 4.2em 0 .5em;
   box-sizing: content-box;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 1em;
+    width: 90%;
+    color: yellow;
+  }
 
   @media (min-width: $bp-max-xl) {
       font-size: 3rem;

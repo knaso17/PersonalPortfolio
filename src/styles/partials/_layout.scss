@@ -48,6 +48,10 @@ body {
         @media (min-width: base.$bp-max-s) {
             top: 3.1em;
           }
+
+          @media (min-width: base.$bp-max-xl) {
+            height: .1em;
+          }
       }
 
       @media (min-width: base.$bp-max-s) {
