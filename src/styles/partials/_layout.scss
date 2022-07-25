@@ -36,11 +36,13 @@ body {
 
       &::after {
         content: "";
-        position: sticky;
+        position: absolute;
         display: block;
-        background-color: yellow;
-        height: 100px;
-        width: 100px;
+        background-image: linear-gradient(to right, #352135,
+              #de6365, #352135);
+        height: .2em;
+        width: 100%;
+        top: 4.4em;
       }
 
       @media (min-width: base.$bp-max-s) {
