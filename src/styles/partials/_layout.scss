@@ -43,6 +43,11 @@ body {
         height: .2em;
         width: 100%;
         top: 4.4em;
+        left: 0;
+
+        @media (min-width: base.$bp-max-s) {
+            top: 3.1em;
+          }
       }
 
       @media (min-width: base.$bp-max-s) {
