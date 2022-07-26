@@ -156,6 +156,12 @@ Tools & Technology
 .techContainer {
   &__header {
       @extend %heading2;
+
+      &::after {
+        width: 69%;
+        margin: auto;
+        max-width: 60em;
+      }
     }
 
   &__techList {
@@ -247,12 +253,12 @@ Projects
 
     &:nth-child(2)::before {
         content: "";
-        position: relative;
+        position: absolute;
         display: inline-block;
         width: .15em;
-        height: 1.7em;
+        height: 2.5em;
         background-color: base.$color-accent;
-        left: -1.5em;
+        left: 7.2em;
       }
   }
 
