@@ -3,6 +3,12 @@
 /*=================================================
 General
 =================================================*/
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 10em;
+}
+
 body {
   background-color: base.$color-primary;
   color: base.$color-text;
@@ -97,7 +103,7 @@ body {
   text-align: left;
   font-size: 1.2rem;
   color: base.$color-accent;
-  padding: .5em .8em;
+  padding: .5em .8em 0;
 
   @media (min-width: base.$bp-max-xl) {
     font-size: 2rem;
