@@ -239,6 +239,7 @@ Projects
     display: flex;
     gap: 3em;
     margin-bottom: 2em;
+    position: relative;
   }
 
   &__link {
@@ -246,11 +247,12 @@ Projects
 
     &:nth-child(2)::before {
         content: "";
-        position: absolute;
+        position: relative;
         display: inline-block;
-        width: 1em;
-        height: 2em;
+        width: .15em;
+        height: 1.7em;
         background-color: base.$color-accent;
+        left: -1.5em;
       }
   }
 
