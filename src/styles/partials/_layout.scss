@@ -239,19 +239,19 @@ Projects
     display: flex;
     gap: 3em;
     margin-bottom: 2em;
-
-    & a:nth-last-child(0)::before {
-      content: "";
-      position: absolute;
-      display: inline-block;
-      width: 1em;
-      height: 2em;
-      background-color: base.$color-accent;
-    }
   }
 
   &__link {
     @extend %link;
+
+    &:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: 1em;
+        height: 2em;
+        background-color: base.$color-accent;
+      }
   }
 
   &__text {
