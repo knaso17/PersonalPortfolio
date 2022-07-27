@@ -1,12 +1,9 @@
 /* colors */
+$color-primary: #020e27;
 $color-container: #394b73;
 $color-comp: #87A2D4;
+$color-text: #cfddf7;
 $color-accent: #fb6d6c;
-
-@media (prefers-color-scheme: dark) {
-  $color-primary: #020e27;
-  $color-text: #cfddf7;
-}
 
 @media (prefers-color-scheme: light) {
   $color-primary: #cfddf7;
