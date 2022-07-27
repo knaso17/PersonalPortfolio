@@ -337,35 +337,3 @@ Recommendations
 }
 
 
-// temp mixins
-@media (min-width: base.$bp-max-s) {
-  body {
-    color: orangered;
-  }
-}
-
-@media (min-width: base.$bp-max-m) {
-  body {
-    color: orchid;
-  }
-}
-
-@media (min-width: base.$bp-max-l) {
-  body {
-    color: wheat;
-  }
-}
-
-@media (min-width: base.$bp-max-xl) {
-  body {
-    color: greenyellow;
-  }
-}
-
-@media (min-width: base.$bp-max-xxl) {
-  body {
-    color: darkolivegreen;
-  }
-}
-
-
