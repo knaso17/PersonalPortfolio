@@ -4,18 +4,19 @@ import "../styles/styles.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faHand } from '@fortawesome/free-solid-svg-icons';
+import { faHand, faBusinessTime } from '@fortawesome/free-solid-svg-icons';
 
 export default function About() {
   return (
       <div className="about" id="about">
           <h2 className="about__header">About Me</h2>
           <p className="about__para">
-            <FontAwesomeIcon icon={faHand} size={"2x"} label={"handwave"}/>
-            Hi, I'm Krista! I live in the Chicago Area and currently work as a Front End Developer.
+            <FontAwesomeIcon icon={faHand} label={"hello"}/>
+            Hi, I'm Krista! I'm a software engineer from the Chicago-land area.
           </p>
           <p className="about__para">
-            I previously worked in eCommerce marketing after graduating from the University of Illinois at Chicago. I worked on the vendor side of many major retailers, but I wasn't challenged enough by simply uploading products, tracking their progress, and making updates as needed. I decided to revisit my minor in Management Information Systems and start learning CSS, HTML, and JavaScript.
+            <FontAwesomeIcon icon={faBusinessTime} label={"work"}/>
+            I used to be an eCommercer marketer, but I wasn't growing in that role…
           </p>
           <p className="about__para">
             After learning the basics and really enjoying them, I decided to make a career transition to Software Engineering and completed the immersive Grace Hopper Program at Fullstack Academy. During that program I learned more about fullstack development including Node.js, PostgreSQL, React, Express and more. I'm now able to take what I've learned and apply it to real world problems and create beautiful websites.
