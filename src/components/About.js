@@ -10,9 +10,9 @@ export default function About() {
   return (
       <div className="about" id="about">
           <h2 className="about__header">About Me</h2>
-          <FontAwesomeIcon icon={faHandwave} size={"2x"} label={"handwave"}/>
+          <FontAwesomeIcon icon={faLinkedin} size={"2x"} label={"handwave"}/>
           <p className="about__para">
-            <FontAwesomeIcon icon={faHandwave} size={"2x"} label={"handwave"}/>
+            <FontAwesomeIcon icon={faLinkedin} size={"2x"} label={"handwave"}/>
             Hi, I'm Krista! I live in the Chicago Area and currently work as a Front End Developer.
           </p>
           <p className="about__para">
