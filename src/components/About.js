@@ -4,12 +4,14 @@ import "../styles/styles.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faHandwave } from '@fortawesome/free-solid-svg-icons';
 
 export default function About() {
   return (
       <div className="about" id="about">
           <h2 className="about__header">About Me</h2>
           <p className="about__para">
+            <FontAwesomeIcon icon={faHandwave} size={"2x"} label={"handwave"}/>
             Hi, I'm Krista! I live in the Chicago Area and currently work as a Front End Developer.
           </p>
           <p className="about__para">
