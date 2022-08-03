@@ -21,7 +21,10 @@ export default function About() {
           <p className="about__para">
             After learning the basics and really enjoying them, I decided to make a career transition to Software Engineering and completed the immersive Grace Hopper Program at Fullstack Academy. During that program I learned more about fullstack development including Node.js, PostgreSQL, React, Express and more. I'm now able to take what I've learned and apply it to real world problems and create beautiful websites.
           </p>
-          <p className="about__para">To learn more, or to contact me, click one of the icons below!</p>
+          <p className="about__para">
+            <FontAwesomeIcon icon={faComments} label={"contact"}/>
+            To learn more, or to contact me, click one of the icons below!
+          </p>
           <div className="about__link-container">
             <a href="https://www.linkedin.com/in/krista-naso/"
               target="_blank"
