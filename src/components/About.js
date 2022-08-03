@@ -4,7 +4,7 @@ import "../styles/styles.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faHand, faBusinessTime } from '@fortawesome/free-solid-svg-icons';
+import { faHand, faBusinessTime, faCode, faLaptopCode, faBookOpen, faComments} from '@fortawesome/free-solid-svg-icons';
 
 export default function About() {
   return (
