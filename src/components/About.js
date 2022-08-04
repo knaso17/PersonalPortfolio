@@ -15,11 +15,20 @@ export default function About() {
             Hi, I'm Krista! I'm a software engineer from the Chicago-land area.
           </p>
           <p className="about__para">
-            <FontAwesomeIcon icon={faBusinessTime} label={"work"}/>
+            <FontAwesomeIcon icon={faBusinessTime} label={"oldWork"}/>
             I used to be an eCommercer marketer, but I wasn't growing in that role…
           </p>
           <p className="about__para">
-            After learning the basics and really enjoying them, I decided to make a career transition to Software Engineering and completed the immersive Grace Hopper Program at Fullstack Academy. During that program I learned more about fullstack development including Node.js, PostgreSQL, React, Express and more. I'm now able to take what I've learned and apply it to real world problems and create beautiful websites.
+            <FontAwesomeIcon icon={faCode} label={"code"}/>
+            So I learned to code! Partially on my own and then with the help of an immersive program.
+          </p>
+          <p className="about__para">
+            <FontAwesomeIcon icon={faLaptopCode} label={"newWork"}/>
+            I now work full-time as front-end developer!
+          </p>
+          <p className="about__para">
+            <FontAwesomeIcon icon={faBookOpen} label={"learning"}/>
+            I'm still learning all the time and can't wait to see what new opportunities come my way!
           </p>
           <p className="about__para">
             <FontAwesomeIcon icon={faComments} label={"contact"}/>
