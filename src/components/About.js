@@ -24,7 +24,7 @@ export default function About() {
           </p>
           <p className="about__para">
             <FontAwesomeIcon icon={faLaptopCode} label={"newWork"}/>
-            I now work full-time as front-end developer!
+            Now I work full-time as front-end web developer!
           </p>
           <p className="about__para">
             <FontAwesomeIcon icon={faBookOpen} label={"learning"}/>
