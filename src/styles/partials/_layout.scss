@@ -137,6 +137,10 @@ About
     @media (min-width: base.$bp-max-xl) {
       font-size: 1.3rem;
     }
+
+    & svg {
+      padding-left: 1em;
+    }
   }
 
   &__link-container {
