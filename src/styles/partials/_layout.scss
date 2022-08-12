@@ -130,6 +130,14 @@ About
     @extend %heading2;
   }
 
+  &__list {
+    @extend %noBullets;
+  }
+
+  &__listItem {
+    display: flex;
+  }
+
   &__para {
     line-height: 1.3em;
     margin-bottom: 1em;
