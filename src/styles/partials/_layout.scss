@@ -119,7 +119,7 @@ About
   @media (min-width: base.$bp-max-s) {
     margin: auto;
     width: 90%;
-    max-width: base.$bp-max-m + 2;
+    max-width: base.$bp-max-m;
   }
 
   @media (min-width: base.$bp-max-xl) {
@@ -136,11 +136,13 @@ About
 
   &__listItem {
     display: flex;
+    gap: 1em;
+    align-items: center;
   }
 
   &__para {
     line-height: 1.3em;
-    margin-bottom: 1em;
+    margin: .5em 0;
 
     @media (min-width: base.$bp-max-xl) {
       font-size: 1.3rem;
