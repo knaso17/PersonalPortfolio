@@ -4,6 +4,9 @@ import "../styles/styles.scss";
 
 const ReadMore = ({ children }) => {
   const text = children;
+  let sentenceEnd = text.indexOf(".", 222);
+  let charCount = 222;
+  charCount = charCount > sentenceEnd ? charCount : sentenceEnd;
   const [isReadMore, setIsReadMore] = useState(true);
   const toggleReadMore = () => {
     setIsReadMore(!isReadMore);
@@ -11,7 +14,7 @@ const ReadMore = ({ children }) => {
 
   return (
     <p className="text">
-      {isReadMore ? text.slice(0, 100) : text}
+      {isReadMore ? text.slice(0, charCount) : text}
       <span onClick={toggleReadMore} className="read-or-hide">
         {isReadMore ? "...read more" : " show less"}
       </span>
