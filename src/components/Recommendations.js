@@ -4,8 +4,8 @@ import "../styles/styles.scss";
 
 const ReadMore = ({ children }) => {
   const text = children;
-  let sentenceEnd = text.indexOf(".", 222);
-  let charCount = 222;
+  let sentenceEnd = text.indexOf(".", 223);
+  let charCount = 200;
   charCount = charCount > sentenceEnd ? charCount : sentenceEnd;
   const [isReadMore, setIsReadMore] = useState(true);
   const toggleReadMore = () => {
