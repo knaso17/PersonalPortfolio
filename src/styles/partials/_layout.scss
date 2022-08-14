@@ -328,6 +328,12 @@ Recommendations
     }
   }
 
+  &__readMore {
+    background: none;
+    border: none;
+    color: $color-accent;
+  }
+
   &__name {
     color: base.$color-comp;
     font-size: 1.2rem;
