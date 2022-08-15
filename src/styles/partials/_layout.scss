@@ -138,16 +138,16 @@ About
     display: flex;
     gap: 1em;
     align-items: center;
+    position: relative;
+
+    &:nth-last-child(1) {
+        color: lemonchiffon;
+      }
   }
 
   &__para {
     line-height: 1.3em;
     margin: .5em 0;
-    position: relative;
-
-    &:nth-last-child(1){
-      color: lemonchiffon;
-    }
 
     @media (min-width: base.$bp-max-xl) {
       font-size: 1.3rem;
@@ -327,14 +327,14 @@ Recommendations
     padding-bottom: 1em;
 
     &::before{
-      content: '&ldquo';
+      content: &ldquo;
       display: inline;
       color: base.$color-accent;
       font-size: 1.5rem;
     }
 
-    &::before {
-      content: '&rdquo';
+    &::after {
+      content: &rdquo;
       display: inline;
       color: base.$color-accent;
       font-size: 1.5rem;
