@@ -143,6 +143,11 @@ About
   &__para {
     line-height: 1.3em;
     margin: .5em 0;
+    position: relative;
+
+    &:nth-last-child(1){
+      color: lemonchiffon;
+    }
 
     @media (min-width: base.$bp-max-xl) {
       font-size: 1.3rem;
@@ -321,6 +326,20 @@ Recommendations
   &__content {
     padding-bottom: 1em;
 
+    &::before{
+      content: '&ldquo';
+      display: inline;
+      color: base.$color-accent;
+      font-size: 1.5rem;
+    }
+
+    &::before {
+      content: '&rdquo';
+      display: inline;
+      color: base.$color-accent;
+      font-size: 1.5rem;
+    }
+
     @media (min-width: base.$bp-max-xl) {
       font-size: 1.3rem;
       line-height: 1.3em;
@@ -332,6 +351,8 @@ Recommendations
     background: none;
     border: none;
     color: base.$color-accent;
+    font-size: 1rem;
+    text-decoration: underline;
 
     @media (min-width: base.$bp-max-xl) {
         font-size: 1.3rem;
