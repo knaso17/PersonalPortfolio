@@ -141,7 +141,16 @@ About
     position: relative;
 
     &:nth-last-child(1) {
-        color: lemonchiffon;
+        ::after{
+          content:"";
+          display: inline;
+          width: 1em;
+          height: 1em;
+          background-color:bisque;
+          border-bottom: .1em solid base.$color-accent;
+          position: absolute;
+          transform: rotate(45deg);
+        }
       }
   }
 
@@ -333,13 +342,6 @@ Recommendations
       font-size: 1.5rem;
     }
 
-    &::after {
-      content: close-quote;
-      display: inline;
-      color: base.$color-accent;
-      font-size: 1.5rem;
-    }
-
     @media (min-width: base.$bp-max-xl) {
       font-size: 1.3rem;
       line-height: 1.3em;
@@ -353,6 +355,14 @@ Recommendations
     color: base.$color-accent;
     font-size: 1rem;
     text-decoration: underline;
+
+    &::before {
+        content: close-quote;
+        display: inline;
+        color: base.$color-accent;
+        font-size: 1.5rem;
+        padding-right: .2em;
+      }
 
     @media (min-width: base.$bp-max-xl) {
         font-size: 1.3rem;
