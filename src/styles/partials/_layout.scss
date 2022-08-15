@@ -327,14 +327,14 @@ Recommendations
     padding-bottom: 1em;
 
     &::before{
-      content: &ldquo;
+      content: open-quote;
       display: inline;
       color: base.$color-accent;
       font-size: 1.5rem;
     }
 
     &::after {
-      content: &rdquo;
+      content: close-quote;
       display: inline;
       color: base.$color-accent;
       font-size: 1.5rem;
