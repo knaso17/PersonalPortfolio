@@ -146,10 +146,11 @@ About
           display: inline;
           width: 1em;
           height: 1em;
-          background-color:bisque;
+          border-right: .1em solid base.$color-accent;
           border-bottom: .1em solid base.$color-accent;
           position: absolute;
           transform: rotate(45deg);
+          margin-left: .5em;
         }
       }
   }
@@ -362,6 +363,7 @@ Recommendations
         color: base.$color-accent;
         font-size: 1.5rem;
         padding-right: .2em;
+        text-decoration: none;
       }
 
     @media (min-width: base.$bp-max-xl) {
