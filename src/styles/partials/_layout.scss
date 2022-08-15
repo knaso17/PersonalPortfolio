@@ -332,6 +332,10 @@ Recommendations
     background: none;
     border: none;
     color: base.$color-accent;
+
+    @media (min-width: base.$bp-max-xl) {
+        font-size: 1.3rem;
+      }
   }
 
   &__name {
