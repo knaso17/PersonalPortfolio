@@ -139,20 +139,6 @@ About
     gap: 1em;
     align-items: center;
     position: relative;
-
-    &:nth-last-child(1) {
-        ::after{
-          content:"";
-          display: inline;
-          width: 1em;
-          height: 1em;
-          border-right: .1em solid base.$color-accent;
-          border-bottom: .1em solid base.$color-accent;
-          position: absolute;
-          transform: rotate(45deg);
-          margin-left: .5em;
-        }
-      }
   }
 
   &__para {
@@ -354,12 +340,12 @@ Recommendations
     background: none;
     border: none;
     color: base.$color-accent;
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-decoration: underline;
 
     &::before {
         content: close-quote;
-        display: inline;
+        display: inline-block;
         color: base.$color-accent;
         font-size: 1.5rem;
         padding-right: .2em;
