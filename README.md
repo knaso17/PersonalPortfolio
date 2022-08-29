@@ -9,7 +9,7 @@
 
 ## Info
 
-[Visit live site](https://krista-portfolio.netlify.app/)
+[Visit live site](https://www.krista-naso.com/)
 
 ### Gatsby
 
@@ -28,7 +28,7 @@ Netlify is used to host this project. It utilizes Github to deploy continuously.
 
 ### To-do
 
-- [ ] Add labels to tech stack(mouseover labels/tooltips ?)
+- [x] Add labels to tech stack
 - [x] Favicon
 - [ ] Footer
-- [ ] Text Preview only in mobile view?
+- [x] Text Preview for projects
